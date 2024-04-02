@@ -8,7 +8,7 @@
     <title>Book Management</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <link rel="shortcut icon" href="https://carls-notes-app-v2.netlify.app/icon.png" type="image/x-icon">
-    @vite('resources/css/app.css')
+    <link rel="stylesheet" href="{{ asset('build.css') }}">
 </head>
 
 <body>
